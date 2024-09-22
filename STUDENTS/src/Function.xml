@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="adhok">
+<test name="Functions"> 
+<parameter name="browsers" value="Edge"></parameter>
+<parameter name="website" value="https://www.amazon.com"></parameter>
+<classes>
+<class name="Pro.Training.Tech.STUDENTS.PageObjectModel"></class>
+<class name="Pro.Training.Tech.STUDENTS.Selenium"></class>
+<class name="Pro.Training.Tech.STUDENTS.Searches"></class>
+</classes>
+</test>
+<test name="functionsbrowsers">
+<parameter name="browsers" value="Edge"></parameter>
+<parameter name="website" value="https://www.amazon.com"></parameter>
+<classes>
+<class name="Pro.Training.Tech.STUDENTS.PageObjectModel"></class>
+<class name="Pro.Training.Tech.STUDENTS.Selenium"></class>
+<class name="Pro.Training.Tech.STUDENTS.Searches"></class>
+</classes>
+</test>
+<test name="functionsbrowseee">
+<parameter name="browsers" value="Firefox"></parameter>
+<parameter name="website" value="https://www.amazon.com"></parameter>
+<classes>
+<class name="Pro.Training.Tech.STUDENTS.PageObjectModel"></class>
+<class name="Pro.Training.Tech.STUDENTS.Selenium"></class>
+<class name="Pro.Training.Tech.STUDENTS.Searches"></class>
+</classes>
+</test>
+
+</suite>

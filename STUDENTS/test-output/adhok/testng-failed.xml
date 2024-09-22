@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [adhok]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Functions(failed)">
+    <parameter name="website" value="https://www.amazon.com"/>
+    <parameter name="browsers" value="Edge"/>
+    <classes>
+      <class name="Pro.Training.Tech.STUDENTS.PageObjectModel">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="f"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- Pro.Training.Tech.STUDENTS.PageObjectModel -->
+    </classes>
+  </test> <!-- Functions(failed) -->
+  <test thread-count="5" name="functionsbrowsers(failed)">
+    <parameter name="website" value="https://www.amazon.com"/>
+    <parameter name="browsers" value="Edge"/>
+    <classes>
+      <class name="Pro.Training.Tech.STUDENTS.PageObjectModel">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="f"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- Pro.Training.Tech.STUDENTS.PageObjectModel -->
+    </classes>
+  </test> <!-- functionsbrowsers(failed) -->
+  <test thread-count="5" name="functionsbrowseee(failed)">
+    <parameter name="website" value="https://www.amazon.com"/>
+    <parameter name="browsers" value="Firefox"/>
+    <classes>
+      <class name="Pro.Training.Tech.STUDENTS.PageObjectModel">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="f"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- Pro.Training.Tech.STUDENTS.PageObjectModel -->
+    </classes>
+  </test> <!-- functionsbrowseee(failed) -->
+</suite> <!-- Failed suite [adhok] -->
